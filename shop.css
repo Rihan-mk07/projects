@@ -1,6 +1,6 @@
 .div1{
     margin-top: 40px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 253, 253, 0.189);
     height: 400px;
     width: 400px;
     border-radius: 100px;
@@ -9,18 +9,23 @@
     text-align: center;         
     margin-top: 200px;
     transition: box-shadow 1s;
+    backdrop-filter: 10px;
     
     
 }
 .div1:hover
 {
-    box-shadow: 0.5px 0.5px 35px gray;    
+    box-shadow: 0.5px 0.5px 290px black;    
 }
 body{
-    background-color: whitesmoke;
+    
     display: grid;
     justify-items: center;
-    
+    background-image: 
+    -webkit-linear-gradient(RED,BLACK);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 .l1{
     font-size: large;
